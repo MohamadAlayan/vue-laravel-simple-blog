@@ -1,0 +1,12 @@
+// Import Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import Colors Variables
+@import "./variables";
+@import "./theme";
+
+// Import Bootstrap
+@import './_custom-bootstrap.scss';
+@import './node_modules/bootstrap/scss/bootstrap.scss';
